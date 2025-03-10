@@ -4,14 +4,10 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-
-                    <h4 class="card-title">Buttons Example</h4>
-                    <p class="card-title-desc">The Buttons extension for DataTables
-                        provides a common set of options, API methods and styling to display
-                        buttons on a page that will interact with a DataTable. The core library
-                        provides the based framework upon which plug-ins can built.
+                    <h4 class="card-title">Data Kunjungan Perhari</h4>
+                    <p class="card-title-desc">Halo dan selamat datang di situs kami! Kami senang Anda telah mengunjungi
+                        halaman ini. Di sini, Anda akan menemukan berbagai informasi dan layanan yang dapat membantu Anda.
                     </p>
-
                     <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap"
                         style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                         <thead>
@@ -39,4 +35,5 @@
     </div>
 @endsection
 @push('scripts')
+    
 @endpush

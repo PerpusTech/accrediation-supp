@@ -8,7 +8,7 @@
 
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Upcube</a></li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Accreditation Support</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
                 </div>
@@ -26,13 +26,10 @@
                         <div class="flex-grow-1">
                             <p class="text-truncate font-size-14 mb-2">Total Jurnal</p>
                             <h4 class="mb-2">{{ $jmlJurnal }}</h4>
-                            <p class="text-muted mb-0"><span class="text-success fw-bold font-size-12 me-2"><i
-                                        class="ri-arrow-right-up-line me-1 align-middle"></i>9.23%</span>from previous
-                                period</p>
                         </div>
                         <div class="avatar-sm">
                             <span class="avatar-title bg-light text-primary rounded-3">
-                                <i class="ri-shopping-cart-2-line font-size-24"></i>
+                                <i class="ri-book-open-fill font-size-24"></i>
                             </span>
                         </div>
                     </div>
@@ -46,13 +43,10 @@
                         <div class="flex-grow-1">
                             <p class="text-truncate font-size-14 mb-2">Total Buku</p>
                             <h4 class="mb-2">{{ $jmlBuku }}</h4>
-                            <p class="text-muted mb-0"><span class="text-danger fw-bold font-size-12 me-2"><i
-                                        class="ri-arrow-right-down-line me-1 align-middle"></i>1.09%</span>from previous
-                                period</p>
                         </div>
                         <div class="avatar-sm">
                             <span class="avatar-title bg-light text-success rounded-3">
-                                <i class="mdi mdi-currency-usd font-size-24"></i>
+                                <i class="ri-book-2-line font-size-24"></i>
                             </span>
                         </div>
                     </div>
@@ -66,13 +60,10 @@
                         <div class="flex-grow-1">
                             <p class="text-truncate font-size-14 mb-2">Total Eksemplar</p>
                             <h4 class="mb-2">{{ $jmlEksemplar }}</h4>
-                            <p class="text-muted mb-0"><span class="text-success fw-bold font-size-12 me-2"><i
-                                        class="ri-arrow-right-up-line me-1 align-middle"></i>16.2%</span>from previous
-                                period</p>
                         </div>
                         <div class="avatar-sm">
                             <span class="avatar-title bg-light text-primary rounded-3">
-                                <i class="ri-user-3-line font-size-24"></i>
+                                <i class="ri-booklet-line font-size-24"></i>
                             </span>
                         </div>
                     </div>
@@ -86,13 +77,10 @@
                         <div class="flex-grow-1">
                             <p class="text-truncate font-size-14 mb-2">Anggota Aktif</p>
                             <h4 class="mb-2">{{ $aktif->Jumlah }}</h4>
-                            <p class="text-muted mb-0"><span class="text-success fw-bold font-size-12 me-2"><i
-                                        class="ri-arrow-right-up-line me-1 align-middle"></i>11.7%</span>from previous
-                                period</p>
                         </div>
                         <div class="avatar-sm">
                             <span class="avatar-title bg-light text-success rounded-3">
-                                <i class="mdi mdi-currency-btc font-size-24"></i>
+                                <i class="ri-user-3-line font-size-24"></i>
                             </span>
                         </div>
                     </div>
@@ -105,104 +93,16 @@
         <div class="col-xl-6">
 
             <div class="card">
-                <div class="card-body pb-0">
-                    <div class="float-end d-none d-md-inline-block">
-                        <div class="dropdown card-header-dropdown">
-                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <span class="text-muted">Report<i class="mdi mdi-chevron-down ms-1"></i></span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <a class="dropdown-item" href="#">Export</a>
-                                <a class="dropdown-item" href="#">Import</a>
-                                <a class="dropdown-item" href="#">Download Report</a>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="card-title mb-4">Email Sent</h4>
-
-                    <div class="text-center pt-3">
-                        <div class="row">
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="d-inline-flex">
-                                    <h5 class="me-2">25,117</h5>
-                                    <div class="text-success font-size-12">
-                                        <i class="mdi mdi-menu-up font-size-14"> </i>2.2 %
-                                    </div>
-                                </div>
-                                <p class="text-muted text-truncate mb-0">Marketplace</p>
-                            </div><!-- end col -->
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="d-inline-flex">
-                                    <h5 class="me-2">$34,856</h5>
-                                    <div class="text-success font-size-12">
-                                        <i class="mdi mdi-menu-up font-size-14"> </i>1.2 %
-                                    </div>
-                                </div>
-                                <p class="text-muted text-truncate mb-0">Last Week</p>
-                            </div><!-- end col -->
-                            <div class="col-sm-4">
-                                <div class="d-inline-flex">
-                                    <h5 class="me-2">$18,225</h5>
-                                    <div class="text-success font-size-12">
-                                        <i class="mdi mdi-menu-up font-size-14"> </i>1.7 %
-                                    </div>
-                                </div>
-                                <p class="text-muted text-truncate mb-0">Last Month</p>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-                    </div>
-                </div>
                 <div class="card-body py-0 px-2">
-                    <div id="area_chart" class="apex-charts" dir="ltr"></div>
+                    <div id="chart" class="p-4" dir="ltr"></div>
                 </div>
             </div><!-- end card -->
         </div>
         <!-- end col -->
         <div class="col-xl-6">
             <div class="card">
-                <div class="card-body pb-0">
-                    <div class="float-end d-none d-md-inline-block">
-                        <div class="dropdown">
-                            <a class="text-reset" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <span class="text-muted">This Years<i class="mdi mdi-chevron-down ms-1"></i></span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <a class="dropdown-item" href="#">Today</a>
-                                <a class="dropdown-item" href="#">Last Week</a>
-                                <a class="dropdown-item" href="#">Last Month</a>
-                                <a class="dropdown-item" href="#">This Year</a>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="card-title mb-4">Revenue</h4>
-
-                    <div class="text-center pt-3">
-                        <div class="row">
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div>
-                                    <h5>17,493</h5>
-                                    <p class="text-muted text-truncate mb-0">Marketplace</p>
-                                </div>
-                            </div><!-- end col -->
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div>
-                                    <h5>$44,960</h5>
-                                    <p class="text-muted text-truncate mb-0">Last Week</p>
-                                </div>
-                            </div><!-- end col -->
-                            <div class="col-sm-4">
-                                <div>
-                                    <h5>$29,142</h5>
-                                    <p class="text-muted text-truncate mb-0">Last Month</p>
-                                </div>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-                    </div>
-                </div>
                 <div class="card-body py-0 px-2">
-                    <div id="column_line_chart" class="apex-charts" dir="ltr"></div>
+                    <div id="columnChart" class="p-4" dir="ltr"></div>
                 </div>
             </div><!-- end card -->
         </div>
@@ -433,3 +333,99 @@
     </div>
     <!-- end row -->
 @endsection
+@push('scripts')
+    <script>
+        var options = {
+            series: [{
+                name: "Total Kunjungan",
+                data: @json($dataTotalBulan)
+            }],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Grafik Data Kunjungan {{ date('Y') }}',
+                align: 'center'
+            },
+            grid: {
+                row: {
+                    colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+                    opacity: 0.5
+                },
+            },
+            xaxis: {
+                categories: @json($dataBulan)
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+    <script>
+        var options2 = {
+            series: [{
+                    name: 'Peminjaman Buku',
+                    data: @json($dataIssue)
+                },
+                {
+                    name: 'Perpanjangan Buku ',
+                    data: @json($dataRenew)
+                },
+                {
+                    name: 'Pengembalian Buku',
+                    data: @json($dataReturn)
+                }
+            ],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                    borderRadius: 5,
+                    borderRadiusApplication: 'end'
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: @json($dataPerBulan),
+            },
+            title: {
+                text: 'Data Sirkulasi Perbulan {{ date('Y') }}',
+                align: 'center'
+            },
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function(val) {
+                        return val
+                    }
+                }
+            }
+        };
+
+        var chart2 = new ApexCharts(document.querySelector("#columnChart"), options2);
+        chart2.render();
+    </script>
+@endpush
