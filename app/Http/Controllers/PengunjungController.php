@@ -17,9 +17,10 @@ class PengunjungController extends Controller
             ->whereDate('visittime', $sekarang)  // whereDate compares only the date part
             ->orderBy('visittime', 'desc')
             ->get();
-
-        
-
             return view('pages.pengunjung', compact('pengunjung'));
         }
+
+    
+
+
 }
